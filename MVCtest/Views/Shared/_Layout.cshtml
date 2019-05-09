@@ -38,9 +38,12 @@
                     </form>
                 </div>
                 <div class="row mt-2" id="two-btn">
-                    Account<img src="~/Assest/images/profile.png" id="user-img">
-                    <img src="~/Assest/images/shopping-cart.png" id="cart-img">
-                </div>
+                    Account<a href="~/Home/membercenter" id="">
+                    <img src="~/Assest/images/profile.png" id="user-img">
+                    </a>
+    
+    <img src="~/Assest/images/shopping-cart.png" id="cart-img">
+</div>
 
             </div>
         </div>
@@ -107,7 +110,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-    <script>
+    <!-- <script> -->
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

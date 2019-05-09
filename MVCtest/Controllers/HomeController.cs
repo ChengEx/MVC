@@ -26,5 +26,11 @@ namespace MVCtest.Controllers
 
             return View();
         }
+        public ActionResult membercenter()
+        {
+           
+
+            return View();
+        }
     }
 }
